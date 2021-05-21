@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(78, 26, 26);
+  font-family: 'Alice';
+  color: white;
+}
+td {
+  margin: auto;
+  background-color: #210909;
+  border: 10px ridge rgb(223, 52, 52);
+  padding: 0px;
+
+}
+table {
+  width: 900px;
+  margin: auto;
+  padding: 0px;
+  border-collapse: collapse;
+}
+h1 {
+  font-size:50px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+nav li {
+  float: left;
+  width: 20%;
+  background-color: rgb(223, 52, 52);
+}
+nav li a {
+  width: 100%;
+  display:block;
+  color:black;
+  text-align:center;
+  padding:14px 0px;
+  text-decoration:none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+nav li a:hover {
+  background-color:rgb(78, 26, 26);
+  color:white;}
+img {
+  width:100%;
+  display: block;
+}
+p {
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.head {
+  width: 900px;
+  padding: 0px;
+  height: 60px;
+}
+.article {
+  width: 300px;
+  float: left;
+  padding: 0px;
+  height: 539px;
+}
+.title {
+  width: 300px;
+  float: left;
+  padding: 0px;
+  height: 60px;
+}
+.image {
+  width: 540px;
+  float: right;
+  height: 100%;
+  padding: 10px;
+}
